@@ -1,0 +1,33 @@
+@media (max-width: 820px) {
+  .slides {
+    height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slides {
+    height: 350px;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  .slides {
+    height: 250px;
+  }
+}
+
+@media (max-width: 352px) {
+  h1 {
+    font-size: 1.2em;
+  }
+  .control {
+    margin-top: 10px;
+    min-width: 80px;
+    &:not(:last-child) {
+      margin-right: 5px;
+    }
+  }
+}

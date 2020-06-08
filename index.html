@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="libs/normalize_CSS/normalize.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Slider (practice)</h1>
+    <div class="my-slider-wrapper" id="carousel">
+      <ul class="slides">
+        <li class="slide active"><img class="slides-inner" src="assets/img/slide_1_img.jpg" alt="слайд"></li>
+        <li class="slide"><img class="slides-inner" src="assets/img/slide_2_img.jpg" alt="слайд"></li>
+        <li class="slide"><img class="slides-inner" src="assets/img/slide_3_img.jpg" alt="слайд"></li>
+        <li class="slide"><img class="slides-inner" src="assets/img/slide_4_img.jpg" alt="слайд"></li>
+        <li class="slide"><img class="slides-inner" src="assets/img/slide_5_img.jpg" alt="слайд"></li>
+      </ul>
+      <div class="indicators indicators-container">
+        <div class="indicator active" data-slide-to="0"></div>
+        <div class="indicator" data-slide-to="1"></div>
+        <div class="indicator" data-slide-to="2"></div>
+        <div class="indicator" data-slide-to="3"></div>
+        <div class="indicator" data-slide-to="4"></div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button class="control" id="previous">Previous</button>
+      <button class="control" id="pause">Pause</button>
+      <button class="control" id="next">Next</button>
+    </div>
+  </div>
+  <footer>
+  </footer>
+
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
