@@ -74,12 +74,21 @@ h1 {
 }
 
 .control {
+  -webkit-transition: ease-in-out .4s;
+  -o-transition: ease-in-out .4s;
+  transition: ease-in-out .4s;
   margin-top: 10px;
   min-width: 100px;
 }
 
 .control:not(:last-child) {
   margin-right: 20px;
+}
+
+.control:hover {
+  background-color: #f1c59e;
+  color: #8f4703;
+  border: 2px solid #8f4703;
 }
 
 .indicators {
